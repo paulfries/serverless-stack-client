@@ -1,6 +1,6 @@
 {
-  "short_name": "Scratch",
-  "name": "Scratch Note Taking App",
+  "short_name": "Content Database",
+  "name": "Test Question/Answer Database for the Chem101 Application",
   "icons": [
     {
       "src": "android-chrome-192x192.png",
