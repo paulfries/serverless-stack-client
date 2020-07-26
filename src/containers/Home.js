@@ -59,7 +59,7 @@ export default function Home() {
   function renderLander() {
     return (
       <div className="lander">
-        <h1>Content Database</h1>
+        <h1>Chem101 Content Database</h1>
         <p>A test question and answer database for the Chem101 Application</p>
         <div>
           <Link to="/login" className="btn btn-info btn-lg">
