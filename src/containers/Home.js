@@ -4,6 +4,7 @@ import { useAppContext } from "../libs/contextLib";
 import { onError } from "../libs/errorLib";
 import "./Home.css";
 import { API } from "aws-amplify";
+import { Link } from "react-router-dom";
 import { LinkContainer } from "react-router-bootstrap";
 
 
@@ -60,6 +61,14 @@ export default function Home() {
       <div className="lander">
         <h1>Content Database</h1>
         <p>A test question and answer database for the Chem101 Application</p>
+        <div>
+          <Link to="/login" className="btn btn-info btn-lg">
+            Login
+          </Link>
+          <Link to="/signup" className="btn btn-success btn-lg">
+            Signup
+          </Link>
+        </div>
       </div>
     );
   }

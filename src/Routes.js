@@ -17,6 +17,9 @@ export default function Routes() {
       <Route exact path="/">
         <Home />
       </Route>
+      <Route exact path="/index.html">
+        <Home />
+      </Route>
       <UnauthenticatedRoute exact path="/login">
         <Login />
       </UnauthenticatedRoute>
