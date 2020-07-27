@@ -15,7 +15,7 @@ phases:
   post_build:
     commands:
       - echo Invalidating the CloudFront Cache
-      - aws cloudfront create-invalidation --distribution-id "${DISTRIBUTION_ID}" --paths "/index.html" 
+      - aws cloudfront create-invalidation --distribution-id "E2XX4W0MNF3QX2" --paths "/index.html" 
 artifacts:
   files:
     - '**/*'
