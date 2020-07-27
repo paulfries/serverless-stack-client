@@ -3,7 +3,7 @@
 ## Overview
 This is a sample UI written in ReactJS. It provides a mechanism for performing Create, Read, Update, and Delete (CRUD) operations against a DynamoDB table. Additonally, it provides a mechamism for uploading files for each record in the database to an S3 object store.
 
-I uses AWS's Cognito service to provide a mechamism for user registration and authentication/authorization. 
+The app uses AWS's Cognito service to provide a mechamism for user registration and authentication/authorization.
 
 **Updates to this master branch will be immediately rolled into production thanks to an integration with AWS CodePipeline**
 
