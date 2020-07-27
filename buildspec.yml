@@ -14,7 +14,7 @@ phases:
       - npm run build
   post_build:
     commands:
-      - echo Invalidating the CloudFront Cache
+      - echo Invalidating the CloudFront Cache for the /index.html file
       - aws cloudfront create-invalidation --distribution-id "E2XX4W0MNF3QX2" --paths "/index.html" 
 artifacts:
   files:
